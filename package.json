@@ -1,0 +1,32 @@
+{
+  "name": "react-native-macos-cursor",
+  "version": "0.0.1",
+  "description": "A cursor module for React Native macOS",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "yarn tsc",
+    "test": "test"
+  },
+  "keywords": [
+    "cursor",
+    "react-native-macos"
+  ],
+  "author": "Ryan Linton",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanlntn/react-native-macos-cursor.git"
+  },
+  "homepage": "https://github.com/ryanlntn/react-native-macos-cursor#readme",
+  "devDependencies": {
+    "@types/react-native": "^0.64.2",
+    "react-native": "^0.64.0",
+    "react-native-macos": "^0.63.23",
+    "typescript": "^4.2.4"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.60 <0.64",
+    "react-native-macos": ">=0.63"
+  }
+}
