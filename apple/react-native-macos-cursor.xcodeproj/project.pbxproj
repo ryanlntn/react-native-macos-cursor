@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		940FC568262A4C1800CC56B1 /* react_native_macos_cursor.h in Headers */ = {isa = PBXBuildFile; fileRef = 940FC567262A4C1800CC56B1 /* react_native_macos_cursor.h */; };
-		940FC56A262A4C1800CC56B1 /* react_native_macos_cursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 940FC569262A4C1800CC56B1 /* react_native_macos_cursor.m */; };
+		949500C8262A53450054C3EA /* RNCursor.h in Headers */ = {isa = PBXBuildFile; fileRef = 949500C6262A53450054C3EA /* RNCursor.h */; };
+		949500C9262A53450054C3EA /* RNCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 949500C7262A53450054C3EA /* RNCursor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		940FC564262A4C1800CC56B1 /* libreact-native-macos-cursor.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libreact-native-macos-cursor.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
-		940FC567262A4C1800CC56B1 /* react_native_macos_cursor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = react_native_macos_cursor.h; sourceTree = "<group>"; };
-		940FC569262A4C1800CC56B1 /* react_native_macos_cursor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = react_native_macos_cursor.m; sourceTree = "<group>"; };
+		949500C6262A53450054C3EA /* RNCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCursor.h; sourceTree = "<group>"; };
+		949500C7262A53450054C3EA /* RNCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCursor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,7 +31,8 @@
 		940FC55B262A4C1800CC56B1 = {
 			isa = PBXGroup;
 			children = (
-				940FC566262A4C1800CC56B1 /* react-native-macos-cursor */,
+				949500C6262A53450054C3EA /* RNCursor.h */,
+				949500C7262A53450054C3EA /* RNCursor.m */,
 				940FC565262A4C1800CC56B1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,15 +45,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		940FC566262A4C1800CC56B1 /* react-native-macos-cursor */ = {
-			isa = PBXGroup;
-			children = (
-				940FC567262A4C1800CC56B1 /* react_native_macos_cursor.h */,
-				940FC569262A4C1800CC56B1 /* react_native_macos_cursor.m */,
-			);
-			path = "react-native-macos-cursor";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -60,7 +52,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				940FC568262A4C1800CC56B1 /* react_native_macos_cursor.h in Headers */,
+				949500C8262A53450054C3EA /* RNCursor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +112,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				940FC56A262A4C1800CC56B1 /* react_native_macos_cursor.m in Sources */,
+				949500C9262A53450054C3EA /* RNCursor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
